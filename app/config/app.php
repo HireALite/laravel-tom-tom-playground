@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'z08PiW9tlbEHGu3BzfFF9xFTqOI812Dv',
+	'key' => 'SU4To7L5geRxbazPjhT3VvyKwe5QVDkU',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,6 +121,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
+		'Hirealite\LaravelTomTom\LaravelTomTomServiceProvider'
 
 	),
 
@@ -189,6 +191,8 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		'TomTom'          => 'Hirealite\LaravelTomTom\TomTomFacade',
+		'Carbon'          => 'Carbon\Carbon'
 	),
 
 );
