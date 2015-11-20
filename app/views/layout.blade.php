@@ -8,7 +8,10 @@
 
 		body {
 			font-family:'Lato', sans-serif;
-			color: #999;
+		}
+
+		a {
+			color: #3c3c3c;
 		}
 	</style>
 </head>
